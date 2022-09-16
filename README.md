@@ -40,6 +40,16 @@ int main()
 		sum = 0;
 	}
 	printf("\n");
+	//Задание для сдачи
+	for (i = 0;i < nv;i++)
+	{
+		for (j = i;j < ng;j++) 
+		{
+			sum += Mas[i][j];
+		}
+	}
+	printf("Сумма выше главной диагонали = %d\n\n", sum);
+	sum = 0;
 	for (j = 0;j < ng;j++)
 	{
 		for (i = 0;i < nv;i++)
